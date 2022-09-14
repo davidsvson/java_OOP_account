@@ -2,7 +2,7 @@ public class Account {
     private double balance;
     private String name;
 
-    private static int count = 0; // klass variabel - gemensam för alla instanser (objekt)
+    private static int count = 0; // klassvariabel - är gemensam för alla instanser (objekt)
 
     public Account() {
         this.balance = 0.0;
